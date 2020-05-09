@@ -1,7 +1,7 @@
 const { expect } = require('chai');
 const checkPermutation = require('../Chapter1_ArraysAndStrings/1.2_checkPermutation');
 
-describe('checkPermutation', () => {
+describe('1.2 checkPermutation', () => {
   it('is a function', () => {
     expect(checkPermutation).to.be.a('function');
   });

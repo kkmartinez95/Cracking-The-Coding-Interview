@@ -5,7 +5,7 @@ const isUnique = require('../Chapter1_ArraysAndStrings/1.1_isUnique');
 // require the function you ae testing
 // expect syntax: expect(thing).method()
 
-describe('isUnique', () => {
+describe('1.1 isUnique', () => {
   it('is a function', () => {
     expect(isUnique).to.be.a('function');
   });
